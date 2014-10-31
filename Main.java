@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 
 public class Main {
@@ -12,6 +13,8 @@ public class Main {
 		System.out.print(cd.ALToString(theData));
 		BinarySearcher bs = new BinarySearcher();
 		bs.bsTest(theData);
+		LinkedList<Item> ll = cd.createLinkedList(1000);
+		
 		
 	}
 
